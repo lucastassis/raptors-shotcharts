@@ -1,0 +1,962 @@
+,SHOT_ZONE_BASIC,SHOT_ZONE_AREA,SHOT_DISTANCE,LOC_X,LOC_Y,SHOT_MADE_FLAG
+0,Restricted Area,Center(C),3,20,33,1
+1,Above the Break 3,Right Side Center(RC),26,117,233,1
+2,Above the Break 3,Center(C),26,-22,263,0
+3,Above the Break 3,Right Side Center(RC),26,174,194,0
+4,Above the Break 3,Center(C),26,-22,260,0
+5,Right Corner 3,Right Side(R),24,242,62,1
+6,Above the Break 3,Right Side Center(RC),26,179,193,1
+7,In The Paint (Non-RA),Center(C),4,36,28,0
+8,Mid-Range,Right Side Center(RC),17,77,162,1
+9,In The Paint (Non-RA),Center(C),5,57,0,1
+10,Above the Break 3,Left Side Center(LC),26,-169,201,0
+11,Mid-Range,Center(C),15,3,156,0
+12,In The Paint (Non-RA),Center(C),12,12,125,1
+13,In The Paint (Non-RA),Center(C),4,46,5,1
+14,In The Paint (Non-RA),Center(C),5,57,-4,0
+15,In The Paint (Non-RA),Center(C),5,2,59,0
+16,In The Paint (Non-RA),Center(C),6,-11,63,0
+17,Restricted Area,Center(C),2,20,8,0
+18,Mid-Range,Center(C),14,8,143,1
+19,Restricted Area,Center(C),2,22,3,1
+20,In The Paint (Non-RA),Center(C),4,-3,42,1
+21,Above the Break 3,Left Side Center(LC),27,-149,231,0
+22,Restricted Area,Center(C),1,19,0,1
+23,Above the Break 3,Center(C),26,1,260,0
+24,Above the Break 3,Left Side Center(LC),25,-151,205,0
+25,Left Corner 3,Left Side(L),22,-223,22,0
+26,In The Paint (Non-RA),Center(C),5,6,51,0
+27,Above the Break 3,Right Side Center(RC),25,213,136,0
+28,Restricted Area,Center(C),2,-21,8,1
+29,Mid-Range,Left Side Center(LC),17,-117,127,1
+30,In The Paint (Non-RA),Center(C),5,-30,44,0
+31,Restricted Area,Center(C),1,-18,-5,0
+32,Restricted Area,Center(C),3,-2,34,0
+33,Mid-Range,Right Side(R),14,131,55,0
+34,In The Paint (Non-RA),Center(C),8,-12,88,1
+35,In The Paint (Non-RA),Center(C),5,57,11,0
+36,Restricted Area,Center(C),1,5,-10,1
+37,Above the Break 3,Right Side Center(RC),25,176,180,1
+38,Restricted Area,Center(C),2,-2,21,0
+39,Above the Break 3,Right Side Center(RC),25,128,226,0
+40,Mid-Range,Right Side(R),18,180,-4,1
+41,In The Paint (Non-RA),Center(C),12,-51,110,0
+42,Above the Break 3,Right Side Center(RC),26,221,138,0
+43,In The Paint (Non-RA),Center(C),4,44,11,0
+44,Above the Break 3,Center(C),25,53,247,0
+45,In The Paint (Non-RA),Center(C),6,22,57,0
+46,Above the Break 3,Right Side Center(RC),25,147,205,1
+47,Mid-Range,Left Side Center(LC),18,-71,168,0
+48,Above the Break 3,Center(C),26,-78,255,0
+49,Above the Break 3,Left Side Center(LC),25,-226,111,1
+50,Above the Break 3,Left Side Center(LC),25,-194,172,1
+51,Above the Break 3,Center(C),27,14,276,0
+52,Mid-Range,Center(C),20,-40,198,1
+53,Mid-Range,Right Side Center(RC),21,72,198,0
+54,In The Paint (Non-RA),Center(C),6,50,38,0
+55,In The Paint (Non-RA),Center(C),4,24,38,0
+56,Right Corner 3,Right Side(R),22,225,6,0
+57,In The Paint (Non-RA),Center(C),11,44,104,1
+58,Mid-Range,Center(C),14,6,147,0
+59,Above the Break 3,Center(C),26,16,264,0
+60,Restricted Area,Center(C),2,-24,5,1
+61,In The Paint (Non-RA),Center(C),5,-2,50,0
+62,In The Paint (Non-RA),Center(C),10,14,104,1
+63,Restricted Area,Center(C),2,-19,7,1
+64,Above the Break 3,Left Side Center(LC),24,-139,201,0
+65,Above the Break 3,Right Side Center(RC),25,185,179,0
+66,Above the Break 3,Right Side Center(RC),25,195,161,1
+67,Above the Break 3,Left Side Center(LC),25,-114,226,1
+68,Above the Break 3,Right Side Center(RC),24,208,136,0
+69,In The Paint (Non-RA),Center(C),4,-47,1,0
+70,Above the Break 3,Right Side Center(RC),25,132,221,0
+71,Mid-Range,Right Side(R),16,155,55,0
+72,In The Paint (Non-RA),Center(C),11,-8,113,1
+73,In The Paint (Non-RA),Center(C),5,-52,25,0
+74,Above the Break 3,Center(C),26,13,260,0
+75,Restricted Area,Center(C),3,5,34,0
+76,Restricted Area,Center(C),3,31,17,1
+77,Restricted Area,Center(C),1,10,12,1
+78,In The Paint (Non-RA),Left Side(L),9,-58,75,0
+79,Restricted Area,Center(C),0,0,0,1
+80,Restricted Area,Center(C),0,0,0,1
+81,Right Corner 3,Right Side(R),22,226,17,1
+82,In The Paint (Non-RA),Center(C),14,63,134,1
+83,Restricted Area,Center(C),3,12,29,1
+84,In The Paint (Non-RA),Center(C),4,-26,31,0
+85,Restricted Area,Center(C),1,-4,16,1
+86,Restricted Area,Center(C),1,-3,10,0
+87,Restricted Area,Center(C),1,-6,17,1
+88,Restricted Area,Center(C),0,-5,8,1
+89,In The Paint (Non-RA),Center(C),8,-26,79,1
+90,Restricted Area,Center(C),3,-9,35,0
+91,In The Paint (Non-RA),Center(C),6,2,67,1
+92,Restricted Area,Center(C),0,5,4,1
+93,Restricted Area,Center(C),1,16,-1,1
+94,Above the Break 3,Center(C),24,53,242,0
+95,Above the Break 3,Center(C),25,-45,248,0
+96,Restricted Area,Center(C),2,24,5,0
+97,Restricted Area,Center(C),1,10,-9,1
+98,Restricted Area,Center(C),3,-11,32,0
+99,In The Paint (Non-RA),Center(C),5,3,52,0
+100,Restricted Area,Center(C),1,-14,4,0
+101,Above the Break 3,Left Side Center(LC),25,-125,221,0
+102,Restricted Area,Center(C),1,-18,8,1
+103,Restricted Area,Center(C),3,26,23,0
+104,In The Paint (Non-RA),Center(C),6,-47,50,1
+105,Above the Break 3,Left Side Center(LC),25,-191,169,1
+106,Mid-Range,Center(C),16,-19,168,1
+107,Restricted Area,Center(C),1,-18,-1,1
+108,Restricted Area,Center(C),2,29,3,0
+109,Restricted Area,Center(C),2,-21,0,1
+110,Restricted Area,Center(C),3,-27,14,0
+111,In The Paint (Non-RA),Center(C),4,41,10,1
+112,Above the Break 3,Left Side Center(LC),24,-215,120,0
+113,Above the Break 3,Left Side Center(LC),27,-101,251,0
+114,Mid-Range,Center(C),18,-22,188,0
+115,Above the Break 3,Center(C),25,6,257,1
+116,In The Paint (Non-RA),Center(C),9,5,98,0
+117,In The Paint (Non-RA),Center(C),4,9,41,1
+118,Above the Break 3,Right Side Center(RC),25,120,224,1
+119,Restricted Area,Center(C),2,13,22,1
+120,Restricted Area,Center(C),3,-5,30,0
+121,Restricted Area,Center(C),2,7,26,0
+122,Mid-Range,Right Side Center(RC),19,94,173,1
+123,In The Paint (Non-RA),Center(C),5,36,43,1
+124,Restricted Area,Center(C),3,19,32,0
+125,Above the Break 3,Center(C),27,-1,275,0
+126,Restricted Area,Center(C),0,0,0,1
+127,Restricted Area,Center(C),0,0,0,1
+128,Mid-Range,Right Side Center(RC),18,92,159,0
+129,Restricted Area,Center(C),2,11,22,1
+130,In The Paint (Non-RA),Center(C),11,0,111,0
+131,Mid-Range,Center(C),19,8,196,0
+132,Mid-Range,Left Side(L),15,-84,131,1
+133,Restricted Area,Center(C),1,16,10,1
+134,In The Paint (Non-RA),Center(C),15,67,135,1
+135,Right Corner 3,Right Side(R),23,234,27,0
+136,Restricted Area,Center(C),0,7,6,1
+137,Mid-Range,Right Side Center(RC),19,158,120,1
+138,Mid-Range,Center(C),18,7,189,0
+139,Restricted Area,Center(C),1,5,10,1
+140,In The Paint (Non-RA),Right Side(R),9,66,74,0
+141,Restricted Area,Center(C),2,29,6,1
+142,Left Corner 3,Left Side(L),23,-230,23,0
+143,Restricted Area,Center(C),0,0,0,0
+144,In The Paint (Non-RA),Left Side(L),8,-51,62,0
+145,Restricted Area,Center(C),2,-5,29,0
+146,Restricted Area,Center(C),0,-3,7,1
+147,Restricted Area,Center(C),1,10,0,1
+148,Restricted Area,Center(C),2,-18,18,0
+149,Restricted Area,Center(C),3,-28,22,0
+150,Restricted Area,Center(C),2,-25,10,0
+151,Restricted Area,Center(C),0,0,0,1
+152,Mid-Range,Right Side(R),17,173,28,0
+153,In The Paint (Non-RA),Center(C),7,-45,55,1
+154,Restricted Area,Center(C),2,28,5,0
+155,Left Corner 3,Left Side(L),23,-228,37,0
+156,Above the Break 3,Right Side Center(RC),26,132,235,1
+157,Left Corner 3,Left Side(L),22,-226,-38,0
+158,Restricted Area,Center(C),2,22,4,1
+159,In The Paint (Non-RA),Center(C),7,-63,40,0
+160,Above the Break 3,Right Side Center(RC),26,171,206,0
+161,Restricted Area,Center(C),2,25,1,1
+162,Right Corner 3,Right Side(R),23,231,0,1
+163,Above the Break 3,Center(C),25,-47,252,0
+164,Above the Break 3,Right Side Center(RC),25,97,238,0
+165,Left Corner 3,Left Side(L),23,-237,-16,0
+166,Restricted Area,Center(C),2,-17,13,1
+167,In The Paint (Non-RA),Center(C),4,15,47,0
+168,In The Paint (Non-RA),Center(C),6,48,47,0
+169,Right Corner 3,Right Side(R),23,231,-31,0
+170,Above the Break 3,Left Side Center(LC),26,-120,236,0
+171,Left Corner 3,Left Side(L),23,-237,27,0
+172,Restricted Area,Center(C),2,0,26,0
+173,Mid-Range,Center(C),17,-41,174,1
+174,Restricted Area,Center(C),2,28,-1,1
+175,In The Paint (Non-RA),Center(C),6,35,50,1
+176,Mid-Range,Center(C),14,-29,147,0
+177,In The Paint (Non-RA),Center(C),9,-16,94,0
+178,Mid-Range,Center(C),20,-36,199,0
+179,Mid-Range,Left Side Center(LC),16,-96,132,0
+180,Restricted Area,Center(C),2,-25,14,0
+181,Above the Break 3,Right Side Center(RC),24,148,190,0
+182,Restricted Area,Center(C),3,-6,32,1
+183,In The Paint (Non-RA),Center(C),4,-29,38,0
+184,Above the Break 3,Left Side Center(LC),26,-101,241,0
+185,Above the Break 3,Center(C),24,-6,243,0
+186,Above the Break 3,Left Side Center(LC),25,-101,237,0
+187,Restricted Area,Center(C),2,0,22,1
+188,Mid-Range,Left Side Center(LC),16,-114,125,0
+189,In The Paint (Non-RA),Center(C),7,-19,74,1
+190,Restricted Area,Center(C),2,18,11,0
+191,Restricted Area,Center(C),2,-1,21,1
+192,Mid-Range,Center(C),18,15,184,0
+193,Restricted Area,Center(C),3,26,25,0
+194,Restricted Area,Center(C),2,22,17,1
+195,Mid-Range,Left Side Center(LC),18,-68,173,1
+196,Restricted Area,Center(C),1,-2,11,1
+197,Right Corner 3,Right Side(R),23,230,-17,0
+198,Above the Break 3,Left Side Center(LC),25,-170,193,0
+199,Restricted Area,Center(C),3,-29,18,0
+200,In The Paint (Non-RA),Center(C),15,71,137,1
+201,Restricted Area,Center(C),1,-14,13,1
+202,Mid-Range,Right Side Center(RC),16,55,157,1
+203,Restricted Area,Center(C),0,0,0,0
+204,Mid-Range,Center(C),15,68,141,0
+205,Above the Break 3,Center(C),25,31,258,0
+206,Restricted Area,Center(C),2,-11,26,1
+207,In The Paint (Non-RA),Left Side(L),12,-73,99,0
+208,Restricted Area,Center(C),0,0,0,1
+209,In The Paint (Non-RA),Center(C),7,-27,68,1
+210,In The Paint (Non-RA),Center(C),5,-13,51,1
+211,In The Paint (Non-RA),Center(C),10,-10,100,0
+212,In The Paint (Non-RA),Center(C),5,48,20,0
+213,Restricted Area,Center(C),2,21,13,1
+214,Above the Break 3,Right Side Center(RC),25,100,236,1
+215,Restricted Area,Center(C),2,-1,25,0
+216,Restricted Area,Center(C),0,0,0,1
+217,Mid-Range,Left Side Center(LC),17,-131,116,0
+218,Mid-Range,Left Side Center(LC),16,-111,121,1
+219,Mid-Range,Left Side Center(LC),19,-109,158,0
+220,Above the Break 3,Right Side Center(RC),26,117,236,0
+221,Right Corner 3,Right Side(R),23,234,21,0
+222,Restricted Area,Center(C),0,0,0,1
+223,Restricted Area,Center(C),1,3,14,1
+224,Above the Break 3,Center(C),25,9,255,1
+225,In The Paint (Non-RA),Center(C),9,-25,89,1
+226,Mid-Range,Left Side(L),12,-117,50,0
+227,Restricted Area,Center(C),2,13,19,1
+228,Above the Break 3,Center(C),26,-63,258,0
+229,In The Paint (Non-RA),Center(C),8,-37,75,0
+230,Above the Break 3,Right Side Center(RC),25,113,225,0
+231,Restricted Area,Center(C),0,-1,4,0
+232,Mid-Range,Left Side Center(LC),19,-119,155,1
+233,Above the Break 3,Right Side Center(RC),25,199,152,0
+234,Mid-Range,Left Side(L),15,-127,97,1
+235,Restricted Area,Center(C),3,-20,28,0
+236,In The Paint (Non-RA),Center(C),9,-16,97,1
+237,Above the Break 3,Center(C),25,49,246,0
+238,Restricted Area,Center(C),1,3,12,1
+239,Mid-Range,Left Side(L),16,-158,31,0
+240,In The Paint (Non-RA),Center(C),6,-57,32,0
+241,Restricted Area,Center(C),1,10,6,1
+242,In The Paint (Non-RA),Center(C),5,11,50,1
+243,Mid-Range,Center(C),17,53,172,0
+244,Restricted Area,Center(C),3,31,22,0
+245,Restricted Area,Center(C),3,-5,31,1
+246,Restricted Area,Center(C),2,18,22,0
+247,Restricted Area,Center(C),1,6,8,1
+248,Restricted Area,Center(C),2,22,6,0
+249,Restricted Area,Center(C),2,16,25,1
+250,Restricted Area,Center(C),1,14,4,1
+251,Restricted Area,Center(C),1,13,8,1
+252,In The Paint (Non-RA),Center(C),4,18,38,1
+253,In The Paint (Non-RA),Center(C),9,-36,90,0
+254,Restricted Area,Center(C),2,23,19,0
+255,Restricted Area,Center(C),0,-2,1,1
+256,Restricted Area,Center(C),2,23,14,1
+257,Restricted Area,Center(C),3,-4,30,1
+258,Restricted Area,Center(C),3,-20,24,0
+259,In The Paint (Non-RA),Center(C),8,-26,82,0
+260,Restricted Area,Center(C),2,19,13,0
+261,In The Paint (Non-RA),Center(C),5,-2,52,1
+262,Restricted Area,Center(C),3,-25,24,1
+263,In The Paint (Non-RA),Center(C),5,31,46,0
+264,Restricted Area,Center(C),2,16,21,1
+265,In The Paint (Non-RA),Center(C),4,20,35,0
+266,Restricted Area,Center(C),1,-6,17,1
+267,Restricted Area,Center(C),2,10,27,1
+268,Mid-Range,Right Side(R),12,90,80,0
+269,In The Paint (Non-RA),Center(C),6,26,64,0
+270,In The Paint (Non-RA),Center(C),5,-28,42,0
+271,In The Paint (Non-RA),Center(C),5,-32,47,1
+272,Above the Break 3,Left Side Center(LC),26,-163,207,0
+273,Restricted Area,Center(C),1,-11,15,1
+274,Restricted Area,Center(C),2,26,13,1
+275,Mid-Range,Center(C),15,-54,146,0
+276,In The Paint (Non-RA),Center(C),7,-78,17,1
+277,Above the Break 3,Left Side Center(LC),25,-106,233,0
+278,Restricted Area,Center(C),2,11,26,1
+279,Above the Break 3,Left Side Center(LC),25,-101,235,0
+280,Restricted Area,Center(C),2,24,-1,0
+281,Restricted Area,Center(C),3,25,18,0
+282,Restricted Area,Center(C),1,-9,11,1
+283,Restricted Area,Center(C),2,15,16,0
+284,Above the Break 3,Center(C),26,46,263,0
+285,In The Paint (Non-RA),Center(C),5,19,54,1
+286,Restricted Area,Center(C),0,-3,6,1
+287,Restricted Area,Center(C),0,-2,6,1
+288,In The Paint (Non-RA),Center(C),10,0,100,0
+289,Restricted Area,Center(C),2,11,25,0
+290,Left Corner 3,Left Side(L),23,-233,16,0
+291,In The Paint (Non-RA),Right Side(R),9,49,77,0
+292,Restricted Area,Center(C),2,-19,21,1
+293,Mid-Range,Right Side(R),8,81,24,0
+294,Restricted Area,Center(C),2,20,15,1
+295,Mid-Range,Center(C),14,9,148,0
+296,In The Paint (Non-RA),Center(C),6,30,62,0
+297,In The Paint (Non-RA),Center(C),6,1,67,0
+298,Mid-Range,Center(C),14,8,143,1
+299,Mid-Range,Center(C),18,-3,185,0
+300,In The Paint (Non-RA),Center(C),7,8,71,1
+301,In The Paint (Non-RA),Center(C),9,36,89,1
+302,Mid-Range,Left Side(L),16,-167,30,0
+303,In The Paint (Non-RA),Center(C),8,5,85,0
+304,Restricted Area,Center(C),1,5,17,1
+305,In The Paint (Non-RA),Left Side(L),11,-61,94,0
+306,In The Paint (Non-RA),Center(C),8,-22,79,1
+307,Restricted Area,Center(C),0,0,7,1
+308,Mid-Range,Left Side(L),15,-115,99,1
+309,In The Paint (Non-RA),Left Side(L),9,-60,74,1
+310,Above the Break 3,Center(C),25,-16,258,0
+311,In The Paint (Non-RA),Center(C),4,-5,46,1
+312,Restricted Area,Center(C),1,9,5,1
+313,In The Paint (Non-RA),Center(C),7,-54,57,0
+314,Restricted Area,Center(C),1,-4,19,0
+315,Restricted Area,Center(C),2,7,19,1
+316,Left Corner 3,Left Side(L),23,-230,17,1
+317,In The Paint (Non-RA),Center(C),9,9,98,1
+318,Restricted Area,Center(C),0,-8,1,1
+319,Restricted Area,Center(C),1,-13,5,0
+320,Mid-Range,Right Side(R),13,130,-4,1
+321,In The Paint (Non-RA),Center(C),11,48,102,0
+322,Restricted Area,Center(C),3,-17,26,0
+323,Above the Break 3,Left Side Center(LC),24,-191,159,0
+324,Restricted Area,Center(C),0,2,2,1
+325,Above the Break 3,Left Side Center(LC),24,-95,228,0
+326,Restricted Area,Center(C),0,-2,7,0
+327,Restricted Area,Center(C),1,10,5,0
+328,In The Paint (Non-RA),Center(C),6,-25,59,1
+329,Restricted Area,Center(C),0,2,2,1
+330,Above the Break 3,Center(C),26,-16,264,0
+331,Above the Break 3,Left Side Center(LC),26,-134,225,0
+332,Above the Break 3,Left Side Center(LC),25,-90,241,1
+333,Above the Break 3,Left Side Center(LC),25,-152,207,1
+334,Above the Break 3,Right Side Center(RC),28,105,264,1
+335,Mid-Range,Left Side Center(LC),18,-105,152,0
+336,In The Paint (Non-RA),Center(C),11,33,105,0
+337,Restricted Area,Center(C),1,1,11,1
+338,Above the Break 3,Center(C),25,18,255,0
+339,Restricted Area,Center(C),0,1,9,1
+340,Above the Break 3,Center(C),25,68,243,1
+341,Above the Break 3,Left Side Center(LC),25,-112,227,1
+342,Restricted Area,Center(C),0,0,6,1
+343,Restricted Area,Center(C),0,1,9,0
+344,Mid-Range,Right Side Center(RC),21,94,192,0
+345,Restricted Area,Center(C),0,-3,3,1
+346,Mid-Range,Left Side(L),16,-154,61,1
+347,Above the Break 3,Right Side Center(RC),26,148,224,1
+348,Above the Break 3,Center(C),25,6,258,0
+349,Mid-Range,Left Side Center(LC),16,-124,103,0
+350,In The Paint (Non-RA),Center(C),5,36,43,0
+351,In The Paint (Non-RA),Center(C),4,-31,37,1
+352,In The Paint (Non-RA),Center(C),6,0,68,1
+353,In The Paint (Non-RA),Center(C),8,-9,88,1
+354,In The Paint (Non-RA),Center(C),4,17,40,0
+355,Above the Break 3,Right Side Center(RC),26,186,190,1
+356,In The Paint (Non-RA),Center(C),5,-45,39,0
+357,Above the Break 3,Left Side Center(LC),26,-207,163,1
+358,In The Paint (Non-RA),Center(C),7,4,70,0
+359,Mid-Range,Left Side Center(LC),17,-115,128,0
+360,In The Paint (Non-RA),Left Side(L),9,-65,67,0
+361,Mid-Range,Left Side Center(LC),18,-58,178,1
+362,In The Paint (Non-RA),Center(C),7,-5,79,0
+363,Restricted Area,Center(C),3,-8,33,1
+364,In The Paint (Non-RA),Center(C),4,-43,-4,0
+365,Restricted Area,Center(C),1,8,10,1
+366,Restricted Area,Center(C),2,-21,15,1
+367,In The Paint (Non-RA),Center(C),6,33,51,0
+368,Above the Break 3,Right Side Center(RC),25,230,116,1
+369,In The Paint (Non-RA),Right Side(R),8,54,67,0
+370,Left Corner 3,Left Side(L),22,-226,1,1
+371,Above the Break 3,Right Side Center(RC),24,115,220,0
+372,In The Paint (Non-RA),Center(C),5,38,42,1
+373,Left Corner 3,Left Side(L),23,-236,6,0
+374,In The Paint (Non-RA),Center(C),5,43,26,0
+375,Restricted Area,Center(C),3,-7,32,1
+376,Restricted Area,Center(C),3,-18,27,1
+377,In The Paint (Non-RA),Center(C),8,-33,76,1
+378,Restricted Area,Center(C),2,-23,-3,0
+379,In The Paint (Non-RA),Center(C),6,9,64,1
+380,Restricted Area,Center(C),1,11,13,0
+381,Restricted Area,Center(C),2,14,22,0
+382,Restricted Area,Center(C),1,-11,7,0
+383,Above the Break 3,Left Side Center(LC),26,-119,239,0
+384,Above the Break 3,Left Side Center(LC),25,-159,205,0
+385,Restricted Area,Center(C),1,14,13,1
+386,Restricted Area,Center(C),2,-4,20,1
+387,Right Corner 3,Right Side(R),23,228,51,1
+388,Restricted Area,Center(C),2,13,20,0
+389,Restricted Area,Center(C),3,-27,26,0
+390,In The Paint (Non-RA),Center(C),5,5,55,1
+391,In The Paint (Non-RA),Center(C),6,-15,68,0
+392,In The Paint (Non-RA),Center(C),5,-5,52,1
+393,Restricted Area,Center(C),3,3,37,0
+394,In The Paint (Non-RA),Center(C),7,25,74,0
+395,Restricted Area,Center(C),2,-15,25,0
+396,Restricted Area,Center(C),3,-22,25,0
+397,In The Paint (Non-RA),Center(C),6,60,10,0
+398,Mid-Range,Center(C),18,-33,180,1
+399,Above the Break 3,Center(C),27,-17,274,0
+400,Restricted Area,Center(C),3,34,18,0
+401,Left Corner 3,Left Side(L),23,-230,-1,0
+402,In The Paint (Non-RA),Center(C),5,42,33,0
+403,Restricted Area,Center(C),0,0,0,0
+404,Restricted Area,Center(C),0,4,7,1
+405,In The Paint (Non-RA),Right Side(R),8,54,64,0
+406,Above the Break 3,Center(C),26,-77,251,1
+407,Above the Break 3,Center(C),27,-79,260,1
+408,Above the Break 3,Right Side Center(RC),27,187,195,0
+409,Mid-Range,Right Side Center(RC),18,99,161,1
+410,Above the Break 3,Right Side Center(RC),27,203,180,0
+411,Left Corner 3,Left Side(L),24,-243,58,0
+412,Restricted Area,Center(C),3,9,32,0
+413,In The Paint (Non-RA),Center(C),9,1,98,1
+414,In The Paint (Non-RA),Center(C),9,8,96,0
+415,Mid-Range,Right Side Center(RC),18,88,162,0
+416,In The Paint (Non-RA),Center(C),6,44,48,0
+417,Restricted Area,Center(C),0,0,0,1
+418,Restricted Area,Center(C),3,0,30,1
+419,Above the Break 3,Right Side Center(RC),28,119,257,0
+420,In The Paint (Non-RA),Center(C),13,-25,131,1
+421,In The Paint (Non-RA),Center(C),14,-36,138,0
+422,Mid-Range,Left Side Center(LC),20,-92,186,1
+423,Restricted Area,Center(C),2,-17,22,0
+424,In The Paint (Non-RA),Center(C),5,-1,55,0
+425,Mid-Range,Center(C),17,24,170,0
+426,Restricted Area,Center(C),1,14,6,1
+427,In The Paint (Non-RA),Center(C),8,-12,84,0
+428,Above the Break 3,Center(C),26,-40,264,1
+429,Above the Break 3,Right Side Center(RC),25,154,197,1
+430,Restricted Area,Center(C),3,0,31,0
+431,Above the Break 3,Center(C),25,49,254,0
+432,Mid-Range,Center(C),16,7,169,1
+433,In The Paint (Non-RA),Right Side(R),12,65,101,1
+434,Above the Break 3,Right Side Center(RC),28,199,208,0
+435,Restricted Area,Center(C),1,1,14,1
+436,Mid-Range,Left Side(L),14,-109,101,0
+437,Restricted Area,Center(C),0,-2,6,1
+438,Restricted Area,Center(C),0,4,4,1
+439,Above the Break 3,Right Side Center(RC),25,134,218,0
+440,Restricted Area,Center(C),2,-21,6,0
+441,Above the Break 3,Right Side Center(RC),25,197,166,0
+442,Restricted Area,Center(C),1,-3,10,0
+443,Restricted Area,Center(C),2,-22,10,0
+444,Restricted Area,Center(C),3,20,26,0
+445,Restricted Area,Center(C),0,0,0,1
+446,Restricted Area,Center(C),1,5,9,1
+447,Restricted Area,Center(C),0,-2,4,1
+448,Restricted Area,Center(C),3,-6,32,0
+449,Above the Break 3,Center(C),27,-47,267,0
+450,Mid-Range,Left Side(L),17,-165,59,1
+451,In The Paint (Non-RA),Center(C),5,-2,55,1
+452,In The Paint (Non-RA),Center(C),4,-44,16,1
+453,In The Paint (Non-RA),Center(C),11,-11,112,1
+454,Above the Break 3,Right Side Center(RC),26,198,179,1
+455,Mid-Range,Left Side Center(LC),20,-126,157,0
+456,Mid-Range,Center(C),20,-3,206,1
+457,In The Paint (Non-RA),Center(C),12,-16,126,0
+458,Restricted Area,Center(C),3,25,28,0
+459,In The Paint (Non-RA),Center(C),14,-39,136,0
+460,Restricted Area,Center(C),2,-24,0,0
+461,Restricted Area,Center(C),1,3,16,1
+462,Above the Break 3,Left Side Center(LC),25,-210,140,0
+463,Restricted Area,Center(C),1,0,19,1
+464,Restricted Area,Center(C),3,30,11,0
+465,Mid-Range,Left Side Center(LC),18,-69,167,0
+466,Above the Break 3,Right Side Center(RC),25,200,163,0
+467,In The Paint (Non-RA),Center(C),7,32,73,0
+468,In The Paint (Non-RA),Center(C),5,-54,16,1
+469,Right Corner 3,Right Side(R),23,236,-16,0
+470,In The Paint (Non-RA),Center(C),5,5,54,1
+471,In The Paint (Non-RA),Center(C),8,0,80,0
+472,Restricted Area,Center(C),2,-17,23,1
+473,Restricted Area,Center(C),1,6,17,1
+474,Above the Break 3,Center(C),28,-14,284,0
+475,Mid-Range,Right Side Center(RC),19,117,157,0
+476,Above the Break 3,Right Side Center(RC),25,97,237,0
+477,Restricted Area,Center(C),2,11,20,1
+478,Above the Break 3,Center(C),25,-69,241,0
+479,In The Paint (Non-RA),Center(C),4,-42,13,0
+480,Above the Break 3,Left Side Center(LC),26,-173,195,1
+481,Restricted Area,Center(C),1,14,11,1
+482,Restricted Area,Center(C),2,2,24,1
+483,Restricted Area,Center(C),1,-16,4,1
+484,Mid-Range,Center(C),18,-2,185,0
+485,Above the Break 3,Center(C),26,57,263,1
+486,Above the Break 3,Left Side Center(LC),27,-149,230,0
+487,In The Paint (Non-RA),Center(C),5,-40,32,0
+488,In The Paint (Non-RA),Left Side(L),8,-55,67,0
+489,Right Corner 3,Right Side(R),24,231,83,0
+490,Restricted Area,Center(C),3,-36,4,1
+491,Above the Break 3,Right Side Center(RC),25,109,230,0
+492,Mid-Range,Left Side Center(LC),17,-55,169,0
+493,Restricted Area,Center(C),2,20,16,1
+494,Restricted Area,Center(C),3,19,27,0
+495,Above the Break 3,Center(C),25,74,245,1
+496,Restricted Area,Center(C),1,-11,5,1
+497,Restricted Area,Center(C),3,34,16,1
+498,Restricted Area,Center(C),3,-30,26,1
+499,Restricted Area,Center(C),3,29,23,1
+500,Restricted Area,Center(C),2,-11,22,0
+501,Restricted Area,Center(C),3,31,15,1
+502,Restricted Area,Center(C),3,29,8,1
+503,Restricted Area,Center(C),3,29,18,0
+504,Restricted Area,Center(C),2,5,22,1
+505,In The Paint (Non-RA),Center(C),5,44,25,0
+506,Restricted Area,Center(C),3,6,38,0
+507,In The Paint (Non-RA),Center(C),13,41,130,1
+508,Restricted Area,Center(C),3,7,37,0
+509,In The Paint (Non-RA),Center(C),5,-24,51,0
+510,Above the Break 3,Left Side Center(LC),24,-173,179,0
+511,In The Paint (Non-RA),Center(C),4,-16,44,0
+512,Restricted Area,Center(C),2,16,15,1
+513,Restricted Area,Center(C),3,31,22,0
+514,Restricted Area,Center(C),3,38,10,0
+515,Restricted Area,Center(C),3,32,12,1
+516,Right Corner 3,Right Side(R),23,230,38,0
+517,Above the Break 3,Left Side Center(LC),26,-195,180,0
+518,Mid-Range,Left Side Center(LC),18,-73,174,0
+519,Left Corner 3,Left Side(L),23,-237,25,0
+520,In The Paint (Non-RA),Center(C),5,-29,45,0
+521,In The Paint (Non-RA),Center(C),5,35,40,0
+522,Above the Break 3,Center(C),25,2,257,1
+523,In The Paint (Non-RA),Center(C),4,2,42,1
+524,Mid-Range,Right Side(R),10,93,51,0
+525,Mid-Range,Center(C),16,-16,165,1
+526,Above the Break 3,Left Side Center(LC),26,-208,160,1
+527,Left Corner 3,Left Side(L),23,-223,81,0
+528,In The Paint (Non-RA),Center(C),4,38,17,1
+529,Above the Break 3,Center(C),26,16,260,1
+530,Mid-Range,Center(C),16,49,155,0
+531,Mid-Range,Right Side(R),16,144,90,0
+532,Left Corner 3,Left Side(L),23,-232,13,0
+533,Above the Break 3,Left Side Center(LC),27,-179,204,0
+534,Restricted Area,Center(C),3,26,25,1
+535,Above the Break 3,Left Side Center(LC),25,-155,205,1
+536,Above the Break 3,Left Side Center(LC),27,-105,251,0
+537,Mid-Range,Left Side(L),12,-93,83,0
+538,In The Paint (Non-RA),Center(C),6,57,39,1
+539,Above the Break 3,Left Side Center(LC),25,-188,170,0
+540,Restricted Area,Center(C),1,-10,6,0
+541,In The Paint (Non-RA),Center(C),9,-15,92,0
+542,In The Paint (Non-RA),Center(C),11,55,96,1
+543,Restricted Area,Center(C),2,-9,24,0
+544,Right Corner 3,Right Side(R),22,226,22,1
+545,In The Paint (Non-RA),Center(C),12,41,120,1
+546,Restricted Area,Center(C),0,0,0,1
+547,Above the Break 3,Center(C),26,44,257,0
+548,Restricted Area,Center(C),1,11,14,0
+549,In The Paint (Non-RA),Center(C),6,31,52,0
+550,Mid-Range,Right Side(R),13,133,13,0
+551,Right Corner 3,Right Side(R),23,231,-19,0
+552,Mid-Range,Left Side Center(LC),17,-87,152,0
+553,Restricted Area,Center(C),2,-22,10,1
+554,In The Paint (Non-RA),Center(C),10,-30,98,1
+555,Restricted Area,Center(C),0,-4,4,1
+556,Left Corner 3,Left Side(L),23,-239,6,0
+557,Mid-Range,Right Side(R),9,82,50,0
+558,In The Paint (Non-RA),Center(C),5,35,42,1
+559,Above the Break 3,Left Side Center(LC),26,-146,221,1
+560,Restricted Area,Center(C),2,-13,17,1
+561,Above the Break 3,Left Side Center(LC),26,-150,214,0
+562,In The Paint (Non-RA),Left Side(L),10,-63,84,1
+563,In The Paint (Non-RA),Center(C),6,20,63,0
+564,In The Paint (Non-RA),Center(C),4,27,41,0
+565,In The Paint (Non-RA),Center(C),11,51,100,1
+566,In The Paint (Non-RA),Left Side(L),11,-62,91,0
+567,Restricted Area,Center(C),1,-9,17,1
+568,In The Paint (Non-RA),Center(C),6,3,69,0
+569,Restricted Area,Center(C),2,-8,25,0
+570,Above the Break 3,Right Side Center(RC),25,145,215,1
+571,Above the Break 3,Right Side Center(RC),26,82,252,1
+572,Restricted Area,Center(C),2,25,16,1
+573,Restricted Area,Center(C),2,25,10,1
+574,Restricted Area,Center(C),3,4,36,0
+575,Right Corner 3,Right Side(R),23,231,41,0
+576,Above the Break 3,Center(C),26,-32,262,1
+577,Above the Break 3,Center(C),26,-18,267,0
+578,Restricted Area,Center(C),3,35,13,0
+579,Restricted Area,Center(C),2,-11,18,0
+580,Restricted Area,Center(C),3,30,10,1
+581,Above the Break 3,Center(C),25,5,253,0
+582,Above the Break 3,Center(C),26,18,260,0
+583,Restricted Area,Center(C),2,-20,15,0
+584,Restricted Area,Center(C),1,18,0,1
+585,Restricted Area,Center(C),2,-2,20,1
+586,Above the Break 3,Center(C),25,-29,256,0
+587,Restricted Area,Center(C),2,-21,-1,1
+588,Left Corner 3,Left Side(L),22,-227,11,0
+589,Mid-Range,Center(C),17,3,176,1
+590,Mid-Range,Left Side(L),21,-179,116,1
+591,Above the Break 3,Center(C),26,73,256,0
+592,Mid-Range,Right Side(R),10,90,57,1
+593,In The Paint (Non-RA),Center(C),7,32,71,1
+594,Left Corner 3,Left Side(L),23,-225,52,0
+595,Above the Break 3,Center(C),24,7,245,0
+596,Restricted Area,Center(C),2,-14,17,1
+597,Restricted Area,Center(C),3,-20,28,0
+598,Mid-Range,Left Side(L),14,-88,109,1
+599,Mid-Range,Right Side(R),15,93,122,0
+600,Restricted Area,Center(C),3,8,36,1
+601,In The Paint (Non-RA),Center(C),6,26,60,0
+602,Above the Break 3,Center(C),26,-78,252,0
+603,In The Paint (Non-RA),Left Side(L),8,-72,42,0
+604,In The Paint (Non-RA),Center(C),6,60,27,1
+605,Mid-Range,Center(C),19,-43,190,0
+606,Right Corner 3,Right Side(R),24,236,57,1
+607,In The Paint (Non-RA),Center(C),5,40,37,1
+608,Restricted Area,Center(C),3,33,10,1
+609,Left Corner 3,Left Side(L),23,-225,83,1
+610,In The Paint (Non-RA),Left Side(L),8,-51,73,0
+611,Restricted Area,Center(C),3,33,20,0
+612,Restricted Area,Center(C),3,-30,17,1
+613,In The Paint (Non-RA),Center(C),4,-21,45,1
+614,Above the Break 3,Center(C),27,-63,263,0
+615,In The Paint (Non-RA),Center(C),6,46,45,0
+616,Restricted Area,Center(C),3,20,27,0
+617,Restricted Area,Center(C),2,-21,3,0
+618,Restricted Area,Center(C),1,19,1,1
+619,Above the Break 3,Right Side Center(RC),25,209,150,0
+620,Mid-Range,Right Side(R),8,84,29,0
+621,Mid-Range,Right Side(R),9,92,5,0
+622,Right Corner 3,Right Side(R),22,226,-17,0
+623,In The Paint (Non-RA),Center(C),7,-6,75,0
+624,In The Paint (Non-RA),Center(C),5,11,56,1
+625,In The Paint (Non-RA),Center(C),12,10,121,0
+626,Above the Break 3,Right Side Center(RC),26,173,204,0
+627,In The Paint (Non-RA),Center(C),5,47,28,1
+628,Restricted Area,Center(C),3,-7,39,0
+629,In The Paint (Non-RA),Center(C),5,-46,28,1
+630,Restricted Area,Center(C),3,31,23,1
+631,In The Paint (Non-RA),Left Side(L),12,-66,109,0
+632,Restricted Area,Center(C),2,22,-5,1
+633,In The Paint (Non-RA),Center(C),6,47,42,0
+634,Above the Break 3,Left Side Center(LC),23,-204,126,1
+635,Restricted Area,Center(C),2,14,26,1
+636,Restricted Area,Center(C),3,15,37,0
+637,Restricted Area,Center(C),3,-30,16,0
+638,In The Paint (Non-RA),Center(C),7,-2,72,0
+639,Right Corner 3,Right Side(R),22,225,19,0
+640,In The Paint (Non-RA),Center(C),4,-3,42,0
+641,Above the Break 3,Right Side Center(RC),25,197,169,0
+642,Above the Break 3,Right Side Center(RC),24,199,144,0
+643,Mid-Range,Right Side(R),8,87,20,1
+644,Mid-Range,Right Side(R),8,82,6,1
+645,Restricted Area,Center(C),3,13,37,1
+646,In The Paint (Non-RA),Center(C),5,-41,43,1
+647,In The Paint (Non-RA),Center(C),7,58,44,0
+648,Restricted Area,Center(C),1,-19,-1,0
+649,In The Paint (Non-RA),Center(C),5,-44,28,1
+650,Restricted Area,Center(C),3,-30,16,0
+651,Mid-Range,Right Side Center(RC),20,74,193,1
+652,Above the Break 3,Right Side Center(RC),25,87,242,0
+653,Right Corner 3,Right Side(R),23,223,57,1
+654,Above the Break 3,Left Side Center(LC),26,-143,225,0
+655,Restricted Area,Center(C),2,21,18,1
+656,In The Paint (Non-RA),Center(C),5,-43,38,0
+657,Restricted Area,Center(C),1,3,13,0
+658,In The Paint (Non-RA),Center(C),4,-2,43,1
+659,Mid-Range,Right Side Center(RC),19,131,146,1
+660,Above the Break 3,Right Side Center(RC),26,209,155,1
+661,Left Corner 3,Left Side(L),23,-232,-17,0
+662,In The Paint (Non-RA),Center(C),6,51,43,1
+663,Right Corner 3,Right Side(R),23,230,4,1
+664,Above the Break 3,Right Side Center(RC),26,111,240,1
+665,Above the Break 3,Left Side Center(LC),26,-216,146,0
+666,In The Paint (Non-RA),Center(C),5,48,18,0
+667,Mid-Range,Left Side(L),11,-101,64,0
+668,Above the Break 3,Left Side Center(LC),27,-122,244,0
+669,Restricted Area,Center(C),3,0,38,1
+670,Restricted Area,Center(C),3,32,1,1
+671,Restricted Area,Center(C),2,-24,11,1
+672,Restricted Area,Center(C),3,32,-4,1
+673,Restricted Area,Center(C),2,24,7,1
+674,In The Paint (Non-RA),Center(C),5,2,53,1
+675,Restricted Area,Center(C),3,-13,32,1
+676,Above the Break 3,Left Side Center(LC),27,-190,193,0
+677,Restricted Area,Center(C),2,20,2,1
+678,Restricted Area,Center(C),1,-3,19,1
+679,Above the Break 3,Left Side Center(LC),26,-176,204,0
+680,Backcourt,Back Court(BC),57,196,540,0
+681,In The Paint (Non-RA),Center(C),5,30,42,1
+682,Mid-Range,Left Side(L),14,-139,25,0
+683,Mid-Range,Right Side(R),14,136,47,0
+684,Restricted Area,Center(C),2,-18,12,1
+685,Above the Break 3,Left Side Center(LC),25,-187,175,0
+686,In The Paint (Non-RA),Center(C),5,44,26,0
+687,Restricted Area,Center(C),2,20,5,1
+688,In The Paint (Non-RA),Center(C),6,68,-8,0
+689,In The Paint (Non-RA),Center(C),4,46,18,0
+690,Restricted Area,Center(C),0,0,0,0
+691,In The Paint (Non-RA),Center(C),4,-32,38,0
+692,Above the Break 3,Right Side Center(RC),25,192,165,0
+693,Above the Break 3,Left Side Center(LC),28,-187,219,0
+694,Restricted Area,Center(C),2,-29,5,1
+695,Above the Break 3,Right Side Center(RC),25,177,177,0
+696,In The Paint (Non-RA),Center(C),5,25,50,0
+697,Above the Break 3,Center(C),25,2,257,0
+698,Restricted Area,Center(C),0,0,0,1
+699,Restricted Area,Center(C),0,0,0,1
+700,In The Paint (Non-RA),Center(C),10,12,103,1
+701,Left Corner 3,Left Side(L),23,-234,-6,0
+702,Restricted Area,Center(C),3,9,31,1
+703,In The Paint (Non-RA),Left Side(L),8,-63,51,0
+704,In The Paint (Non-RA),Right Side(R),11,72,95,0
+705,Above the Break 3,Left Side Center(LC),26,-182,192,0
+706,Above the Break 3,Left Side Center(LC),25,-200,162,0
+707,Above the Break 3,Center(C),24,-64,240,0
+708,In The Paint (Non-RA),Center(C),7,-14,75,0
+709,Restricted Area,Center(C),2,6,20,0
+710,Mid-Range,Right Side Center(RC),17,65,166,0
+711,Right Corner 3,Right Side(R),22,225,16,1
+712,Restricted Area,Center(C),2,-15,22,0
+713,In The Paint (Non-RA),Right Side(R),10,63,84,0
+714,In The Paint (Non-RA),Center(C),4,43,18,1
+715,Restricted Area,Center(C),3,-3,36,1
+716,Restricted Area,Center(C),2,-18,15,0
+717,Restricted Area,Center(C),2,20,15,1
+718,Above the Break 3,Center(C),26,-19,269,0
+719,Mid-Range,Center(C),19,25,197,0
+720,Restricted Area,Center(C),2,22,0,1
+721,Above the Break 3,Center(C),25,48,252,0
+722,Restricted Area,Center(C),3,33,18,1
+723,Mid-Range,Right Side Center(RC),20,67,191,1
+724,In The Paint (Non-RA),Center(C),7,-62,39,1
+725,Above the Break 3,Right Side Center(RC),25,149,211,1
+726,Above the Break 3,Right Side Center(RC),25,144,214,0
+727,In The Paint (Non-RA),Center(C),7,-35,70,1
+728,Restricted Area,Center(C),1,15,4,1
+729,Mid-Range,Center(C),19,0,195,1
+730,Mid-Range,Center(C),17,-16,178,1
+731,Above the Break 3,Right Side Center(RC),25,185,175,0
+732,Mid-Range,Left Side(L),11,-116,12,1
+733,In The Paint (Non-RA),Center(C),6,-14,62,1
+734,Restricted Area,Center(C),2,-4,27,1
+735,Restricted Area,Center(C),3,30,9,1
+736,Mid-Range,Left Side(L),15,-119,95,0
+737,Above the Break 3,Right Side Center(RC),26,95,243,0
+738,In The Paint (Non-RA),Center(C),5,14,53,1
+739,Restricted Area,Center(C),3,-3,30,0
+740,Restricted Area,Center(C),3,23,20,1
+741,In The Paint (Non-RA),Center(C),6,-25,57,0
+742,In The Paint (Non-RA),Center(C),9,25,94,0
+743,In The Paint (Non-RA),Center(C),7,22,68,0
+744,Restricted Area,Center(C),2,-22,17,0
+745,Restricted Area,Center(C),2,-28,-4,1
+746,In The Paint (Non-RA),Center(C),5,40,34,1
+747,In The Paint (Non-RA),Center(C),7,71,30,0
+748,Mid-Range,Right Side(R),10,98,40,0
+749,In The Paint (Non-RA),Center(C),6,0,63,1
+750,Mid-Range,Right Side(R),12,103,72,0
+751,In The Paint (Non-RA),Center(C),10,-2,107,0
+752,Above the Break 3,Center(C),26,51,260,0
+753,Restricted Area,Center(C),1,14,4,1
+754,In The Paint (Non-RA),Center(C),5,42,28,0
+755,In The Paint (Non-RA),Center(C),6,36,55,0
+756,Restricted Area,Center(C),2,21,15,1
+757,Restricted Area,Center(C),3,27,21,0
+758,Mid-Range,Center(C),16,-39,165,1
+759,Mid-Range,Left Side Center(LC),16,-123,109,0
+760,Restricted Area,Center(C),2,-20,4,1
+761,Right Corner 3,Right Side(R),23,234,10,0
+762,In The Paint (Non-RA),Center(C),4,27,33,0
+763,In The Paint (Non-RA),Center(C),6,13,59,1
+764,In The Paint (Non-RA),Center(C),4,6,41,1
+765,In The Paint (Non-RA),Center(C),7,65,26,0
+766,In The Paint (Non-RA),Center(C),4,-38,28,0
+767,Above the Break 3,Left Side Center(LC),27,-143,238,1
+768,In The Paint (Non-RA),Center(C),6,-63,0,0
+769,In The Paint (Non-RA),Center(C),14,68,129,1
+770,Right Corner 3,Right Side(R),23,229,41,1
+771,Mid-Range,Center(C),16,5,163,1
+772,Mid-Range,Center(C),18,-32,183,0
+773,Mid-Range,Right Side(R),18,157,95,0
+774,Right Corner 3,Right Side(R),23,232,56,0
+775,Restricted Area,Center(C),2,-27,0,1
+776,In The Paint (Non-RA),Center(C),5,11,57,1
+777,Left Corner 3,Left Side(L),22,-221,-1,0
+778,Restricted Area,Center(C),3,-29,10,1
+779,Restricted Area,Center(C),1,3,11,1
+780,Above the Break 3,Right Side Center(RC),26,147,215,0
+781,Restricted Area,Center(C),1,-8,15,1
+782,In The Paint (Non-RA),Center(C),10,-8,103,0
+783,Above the Break 3,Left Side Center(LC),25,-150,209,1
+784,Above the Break 3,Left Side Center(LC),24,-143,205,1
+785,Restricted Area,Center(C),1,-10,8,0
+786,Above the Break 3,Left Side Center(LC),25,-128,219,0
+787,Left Corner 3,Left Side(L),22,-229,-1,1
+788,Above the Break 3,Center(C),25,-23,254,1
+789,Restricted Area,Center(C),2,-11,22,0
+790,Restricted Area,Center(C),2,20,13,0
+791,Above the Break 3,Right Side Center(RC),25,113,233,0
+792,In The Paint (Non-RA),Center(C),6,-2,62,0
+793,Restricted Area,Center(C),0,-7,4,0
+794,Restricted Area,Center(C),1,-12,13,1
+795,Left Corner 3,Left Side(L),24,-231,81,1
+796,Above the Break 3,Right Side Center(RC),25,206,151,0
+797,Restricted Area,Center(C),2,-12,17,0
+798,Restricted Area,Center(C),0,3,-3,1
+799,In The Paint (Non-RA),Center(C),4,40,5,0
+800,Restricted Area,Center(C),1,-16,11,1
+801,In The Paint (Non-RA),Center(C),7,40,64,0
+802,Restricted Area,Center(C),2,-5,23,1
+803,In The Paint (Non-RA),Center(C),7,16,75,0
+804,In The Paint (Non-RA),Center(C),4,-8,48,1
+805,Restricted Area,Center(C),3,36,8,1
+806,Above the Break 3,Left Side Center(LC),26,-201,165,0
+807,Right Corner 3,Right Side(R),23,236,17,0
+808,Left Corner 3,Left Side(L),23,-233,5,1
+809,Left Corner 3,Left Side(L),22,-225,5,0
+810,Restricted Area,Center(C),1,-5,9,1
+811,Restricted Area,Center(C),1,-15,-2,1
+812,Above the Break 3,Right Side Center(RC),25,115,231,1
+813,In The Paint (Non-RA),Center(C),5,-55,19,0
+814,Restricted Area,Center(C),1,16,5,1
+815,In The Paint (Non-RA),Center(C),5,35,46,1
+816,Restricted Area,Center(C),2,19,14,0
+817,In The Paint (Non-RA),Center(C),8,-40,79,0
+818,In The Paint (Non-RA),Center(C),4,3,43,0
+819,Restricted Area,Center(C),2,0,26,1
+820,In The Paint (Non-RA),Center(C),4,-30,32,0
+821,Above the Break 3,Right Side Center(RC),25,95,241,0
+822,In The Paint (Non-RA),Center(C),5,38,36,0
+823,Above the Break 3,Center(C),26,18,262,0
+824,In The Paint (Non-RA),Center(C),4,-16,46,1
+825,Above the Break 3,Right Side Center(RC),25,217,139,0
+826,Restricted Area,Center(C),3,-3,39,0
+827,In The Paint (Non-RA),Center(C),4,-8,49,0
+828,In The Paint (Non-RA),Center(C),7,54,53,0
+829,Above the Break 3,Right Side Center(RC),24,134,210,0
+830,Right Corner 3,Right Side(R),22,225,26,0
+831,Restricted Area,Center(C),3,20,31,0
+832,Restricted Area,Center(C),1,-11,13,0
+833,Above the Break 3,Center(C),25,16,256,1
+834,Restricted Area,Center(C),2,20,11,1
+835,In The Paint (Non-RA),Center(C),12,29,120,0
+836,Mid-Range,Left Side(L),12,-123,8,1
+837,In The Paint (Non-RA),Center(C),5,-3,58,1
+838,Mid-Range,Left Side(L),13,-130,40,0
+839,In The Paint (Non-RA),Center(C),7,45,61,0
+840,In The Paint (Non-RA),Center(C),14,-43,136,0
+841,In The Paint (Non-RA),Center(C),5,-24,47,1
+842,In The Paint (Non-RA),Center(C),4,-9,46,0
+843,In The Paint (Non-RA),Center(C),4,-30,33,0
+844,Restricted Area,Center(C),3,33,10,0
+845,In The Paint (Non-RA),Right Side(R),8,44,73,0
+846,Above the Break 3,Right Side Center(RC),24,177,172,1
+847,In The Paint (Non-RA),Left Side(L),9,-52,83,1
+848,Restricted Area,Center(C),3,-2,34,0
+849,Restricted Area,Center(C),0,0,0,1
+850,Mid-Range,Center(C),20,-5,206,0
+851,Restricted Area,Center(C),3,-3,30,1
+852,Mid-Range,Left Side(L),14,-131,57,0
+853,Right Corner 3,Right Side(R),23,236,-5,0
+854,In The Paint (Non-RA),Center(C),10,-36,96,0
+855,In The Paint (Non-RA),Center(C),4,35,25,0
+856,In The Paint (Non-RA),Center(C),9,-12,91,0
+857,In The Paint (Non-RA),Center(C),7,-8,70,1
+858,Restricted Area,Center(C),3,0,31,1
+859,Mid-Range,Right Side Center(RC),17,78,158,0
+860,Restricted Area,Center(C),0,0,0,1
+861,Above the Break 3,Right Side Center(RC),25,91,239,0
+862,Above the Break 3,Right Side Center(RC),25,234,111,1
+863,In The Paint (Non-RA),Right Side(R),10,59,82,1
+864,Right Corner 3,Right Side(R),22,220,62,0
+865,In The Paint (Non-RA),Center(C),9,36,93,0
+866,Above the Break 3,Left Side Center(LC),27,-124,251,1
+867,Mid-Range,Right Side Center(RC),19,95,172,0
+868,Above the Break 3,Left Side Center(LC),25,-199,161,0
+869,Restricted Area,Center(C),2,-3,27,1
+870,Mid-Range,Right Side Center(RC),18,114,141,1
+871,In The Paint (Non-RA),Center(C),6,51,45,1
+872,Mid-Range,Center(C),20,-52,200,0
+873,In The Paint (Non-RA),Center(C),12,55,109,1
+874,Mid-Range,Center(C),16,29,159,1
+875,Mid-Range,Center(C),15,-1,159,0
+876,In The Paint (Non-RA),Left Side(L),14,-76,123,1
+877,Above the Break 3,Left Side Center(LC),26,-182,197,1
+878,Above the Break 3,Left Side Center(LC),27,-116,246,0
+879,Above the Break 3,Center(C),26,-68,258,0
+880,Restricted Area,Center(C),2,-1,29,1
+881,Restricted Area,Center(C),2,23,1,0
+882,In The Paint (Non-RA),Center(C),11,-45,105,1
+883,Right Corner 3,Right Side(R),23,231,43,1
+884,In The Paint (Non-RA),Center(C),4,27,42,0
+885,In The Paint (Non-RA),Center(C),7,-16,74,1
+886,Restricted Area,Center(C),2,-1,29,1
+887,In The Paint (Non-RA),Center(C),11,27,115,0
+888,Restricted Area,Center(C),1,-15,13,1
+889,Mid-Range,Right Side Center(RC),16,77,143,0
+890,Restricted Area,Center(C),2,20,16,1
+891,Right Corner 3,Right Side(R),23,230,22,0
+892,Restricted Area,Center(C),3,-29,19,1
+893,In The Paint (Non-RA),Center(C),14,-60,129,1
+894,In The Paint (Non-RA),Right Side(R),11,67,89,1
+895,In The Paint (Non-RA),Center(C),8,14,85,0
+896,In The Paint (Non-RA),Center(C),7,19,74,0
+897,Restricted Area,Center(C),1,11,11,0
+898,In The Paint (Non-RA),Center(C),9,-41,84,0
+899,Restricted Area,Center(C),3,30,11,0
+900,In The Paint (Non-RA),Center(C),4,-19,39,0
+901,Restricted Area,Center(C),1,-12,2,1
+902,Above the Break 3,Right Side Center(RC),25,114,231,1
+903,Mid-Range,Center(C),21,55,206,0
+904,Restricted Area,Center(C),2,22,7,1
+905,In The Paint (Non-RA),Center(C),12,-9,128,0
+906,In The Paint (Non-RA),Left Side(L),12,-70,100,1
+907,Above the Break 3,Left Side Center(LC),26,-180,199,0
+908,Left Corner 3,Left Side(L),22,-229,10,0
+909,In The Paint (Non-RA),Center(C),8,-12,80,0
+910,Above the Break 3,Center(C),25,-68,248,0
+911,Mid-Range,Center(C),20,-47,202,1
+912,Above the Break 3,Right Side Center(RC),25,96,237,1
+913,Mid-Range,Center(C),17,-2,170,1
+914,Left Corner 3,Left Side(L),23,-230,26,0
+915,Left Corner 3,Left Side(L),25,-239,75,1
+916,In The Paint (Non-RA),Center(C),4,38,26,1
+917,Restricted Area,Center(C),2,26,13,0
+918,In The Paint (Non-RA),Center(C),6,62,7,1
+919,Above the Break 3,Right Side Center(RC),26,84,247,0
+920,In The Paint (Non-RA),Center(C),5,27,53,0
+921,Restricted Area,Center(C),2,-2,29,0
+922,Above the Break 3,Left Side Center(LC),25,-149,207,0
+923,In The Paint (Non-RA),Center(C),8,43,77,1
+924,In The Paint (Non-RA),Center(C),7,-13,72,0
+925,Mid-Range,Center(C),15,65,143,1
+926,Mid-Range,Right Side(R),12,110,69,1
+927,Restricted Area,Center(C),3,23,20,1
+928,Mid-Range,Left Side(L),12,-93,85,0
+929,In The Paint (Non-RA),Center(C),4,7,45,1
+930,In The Paint (Non-RA),Center(C),5,41,30,1
+931,Restricted Area,Center(C),1,14,14,1
+932,In The Paint (Non-RA),Left Side(L),15,-79,136,0
+933,Restricted Area,Center(C),2,-11,25,1
+934,Restricted Area,Center(C),1,14,11,1
+935,In The Paint (Non-RA),Center(C),7,-10,78,0
+936,Restricted Area,Center(C),3,21,28,1
+937,Restricted Area,Center(C),2,-25,8,1
+938,Restricted Area,Center(C),2,25,9,1
+939,Above the Break 3,Right Side Center(RC),29,190,232,0
+940,Mid-Range,Left Side Center(LC),16,-85,142,0
+941,Mid-Range,Center(C),20,34,203,0
+942,In The Paint (Non-RA),Center(C),5,-37,43,1
+943,Mid-Range,Right Side Center(RC),19,66,185,1
+944,In The Paint (Non-RA),Center(C),6,-36,52,1
+945,In The Paint (Non-RA),Right Side(R),9,65,66,1
+946,Above the Break 3,Left Side Center(LC),25,-91,240,0
+947,Mid-Range,Right Side Center(RC),21,144,157,0
+948,Above the Break 3,Left Side Center(LC),25,-204,155,0
+949,Restricted Area,Center(C),1,17,9,1
+950,Above the Break 3,Center(C),25,-53,245,0
+951,Restricted Area,Center(C),1,-16,8,0
+952,In The Paint (Non-RA),Center(C),11,56,99,0
+953,Restricted Area,Center(C),2,19,15,0
+954,Mid-Range,Left Side(L),16,-160,55,0
+955,Restricted Area,Center(C),2,13,21,0
+956,Above the Break 3,Left Side Center(LC),25,-165,197,0
+957,In The Paint (Non-RA),Center(C),7,6,78,1
+958,Restricted Area,Center(C),3,30,16,1
+959,Mid-Range,Right Side Center(RC),16,87,143,0
+960,Restricted Area,Center(C),1,15,8,1

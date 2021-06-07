@@ -1,0 +1,21 @@
+,GRID_TYPE,SHOT_ZONE_BASIC,SHOT_ZONE_AREA,SHOT_ZONE_RANGE,FGA,FGM,FG_PCT
+0,League Averages,Above the Break 3,Back Court(BC),Back Court Shot,45,6,0.133
+1,League Averages,Above the Break 3,Center(C),24+ ft.,14955,5168,0.346
+2,League Averages,Above the Break 3,Left Side Center(LC),24+ ft.,20895,7459,0.357
+3,League Averages,Above the Break 3,Right Side Center(RC),24+ ft.,19624,6875,0.35
+4,League Averages,Backcourt,Back Court(BC),Back Court Shot,405,7,0.017
+5,League Averages,In The Paint (Non-RA),Center(C),8-16 ft.,9820,4159,0.424
+6,League Averages,In The Paint (Non-RA),Center(C),Less Than 8 ft.,16915,6518,0.385
+7,League Averages,In The Paint (Non-RA),Left Side(L),8-16 ft.,1770,714,0.403
+8,League Averages,In The Paint (Non-RA),Right Side(R),8-16 ft.,1871,738,0.394
+9,League Averages,Left Corner 3,Left Side(L),24+ ft.,8380,3329,0.397
+10,League Averages,Mid-Range,Center(C),8-16 ft.,1778,746,0.42
+11,League Averages,Mid-Range,Center(C),16-24 ft.,4036,1663,0.412
+12,League Averages,Mid-Range,Left Side Center(LC),16-24 ft.,3634,1445,0.398
+13,League Averages,Mid-Range,Left Side(L),16-24 ft.,1541,614,0.398
+14,League Averages,Mid-Range,Left Side(L),8-16 ft.,4361,1768,0.405
+15,League Averages,Mid-Range,Right Side Center(RC),16-24 ft.,3820,1556,0.407
+16,League Averages,Mid-Range,Right Side(R),16-24 ft.,1425,561,0.394
+17,League Averages,Mid-Range,Right Side(R),8-16 ft.,4471,1792,0.401
+18,League Averages,Restricted Area,Center(C),Less Than 8 ft.,60503,38441,0.635
+19,League Averages,Right Corner 3,Right Side(R),24+ ft.,7867,2991,0.38
