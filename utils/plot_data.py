@@ -6,7 +6,7 @@ from matplotlib.offsetbox import  OffsetImage
 from scipy.stats import kde
 import numpy as np
 from PIL import Image
-from . import process_data
+import process_data as process_data
 '''
 Function for drawing the basketball court (Source: http://savvastjortjoglou.com/nba-shot-sharts.html)
 '''
@@ -116,7 +116,8 @@ def plot_scatter_zone(player_data, league_data, player_name='Kyle Lowry', player
     load_img = plt.imread(player_img)
     plot_im = OffsetImage(load_img, zoom=0.15)
     plot_im.set_offset((2780, 3200))
-    ax.add_artist(plot_im)    
+    ax.add_artist(plot_im) 
+
     # save and plot fig
     if savefig:
         plt.savefig(out_path, dpi=300, bbox_inches='tight')   
@@ -127,12 +128,11 @@ def plot_scatter_zone(player_data, league_data, player_name='Kyle Lowry', player
 '''
 Function for plotting the density (or heatmap) visualization of some player's data
 '''
-def plot_density(player_data, savefig=True, show_plot=True):
+def plot_density(player_data, title='Toronto Raptors', player_img='./players_pics/logo.png', out_path='density.png', season='2019-20', savefig=True, show_plot=True):
     mpl.rc('text', usetex=True)
     mpl.rcParams['font.family'] = 'STIXGeneral'
     mpl.rcParams['font.size'] = 14
     plt.style.use('dark_background')
-
     
     # basic fig definitions
     fig, ax = plt.subplots(figsize=(12, 11))
@@ -153,18 +153,21 @@ def plot_density(player_data, savefig=True, show_plot=True):
 
     # plot colorbar
     position= fig.add_axes([0.7,0.92,0.2,0.03])
-    cbar = plt.colorbar(cax=position, orientation="horizontal", ticks=[0, ])
-    #cbar.ax.set_xticklabels(['Below\nLeague Average ', 'Above\nLeague Average'])
+    cbar = plt.colorbar(cax=position, orientation="horizontal", ticks=[])
     cbar.ax.tick_params(size=0)
     plt.title('Shots Attempted', fontdict={'weight':'bold'})
+    load_img = plt.imread(player_img)
+    plot_im = OffsetImage(load_img, zoom=0.25)
+    plot_im.set_offset((2950, 3200))
+    ax.add_artist(plot_im) 
 
     # plot title
-    ax.set_title('Kyle Lowry\n2019-20 Regular Season', fontdict={'fontsize':40, 'weight':'bold'}, loc='left')
+    ax.set_title(f'{title}\n{season} Regular Season', fontdict={'fontsize':40, 'weight':'bold'}, loc='left')
 
     if savefig:
-        plt.savefig('density.png', dpi=300, bbox_inches='tight')
-    # if show_plot:
-    #     plt.show()
+        plt.savefig(out_path, dpi=300, bbox_inches='tight')
+    if show_plot:
+        plt.show()
     plt.close('all')
 
 
@@ -172,12 +175,12 @@ if __name__ == "__main__":
     import pandas as pd 
 
     # load the data
-    player_data = pd.read_csv('../data/2020-21/kylelowry.csv')
-    league_data = pd.read_csv('../data/2020-21/league_averages.csv')
+    player_data = pd.read_csv('../data/2019-20/roster_data.csv')
+    league_data = pd.read_csv('../data/2019-20/league_averages.csv')
 
     # plot the data
-    plot_scatter_zone(player_data, league_data)
-    #plot_density(player_data)
+    #plot_scatter_zone(player_data, league_data)
+    plot_density(player_data, out_path='2019-20.png', season='2019-20', show_plot=False)
 
 
 

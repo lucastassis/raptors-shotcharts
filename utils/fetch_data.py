@@ -37,9 +37,23 @@ class PlayerShotchart(object):
     
     # function that saves the dataframe into a csv file
     def to_csv(self):
-        self.shotchart_df.to_csv(f'{self.player_info["full_name"].lower().replace(" ", "")}.csv')
+        self.shotchart_df.to_csv(f'../data/{self.season}/{self.player_info["full_name"].lower().replace(" ", "")}.csv')
 
 if __name__ == "__main__":
-    klow = PlayerShotchart(team_city_name='brooklyn', player_name='Kyle Lowry', season='2020-21')
-    klow.to_csv()
+    # klow = PlayerShotchart(team_city_name='toronto', player_name='Kyle Lowry', season='2020-21')
+    # klow.to_csv()
+
+    # fetch roster data (except for Malachi Flynn, Jalen Harris and Freddir Gillespie in the 2020-21 roster. nba_api did not find the players :( )
+    roster2019_20 = ['Chris Boucher', 'Oshae Brissett', 'Terence Davis', 'Marc Gasol', 'Dewan Hernandez', 'Rondae Hollis-Jefferson', 'Serge Ibaka', 'Stanley Johnson', 'Kyle Lowry', 'Patrick McCaw', 'Malcolm Miller', 'Shamorie Ponds','Norman Powell', 'Pascal Siakam', 'Matt Thomas', 'Fred VanVleet', 'Paul Watson', 'OG Anunoby']
+    roster2020_21 = ['Fred VanVleet', 'Pascal Siakam', 'Kyle Lowry', 'OG Anunoby', 'Gary Trent Jr.', 'Khem Birch', 'Norman Powell', 'Chris Boucher', "DeAndre' Bembry", 'Henry Ellenson', 'Aron Baynes', 'Stanley Johnson', 'Terence Davis', 'Yuta Watanabe', 'Rodney Hood', 'Paul Watson', 'Alex Len', 'Matt Thomas', 'Patrick McCaw']
+
+    rosters = [roster2020_21]
+    seasons = ['2020-21']
+
+    for roster, season in zip(rosters, seasons):
+        for player in roster:
+            print(player)
+            shotchart = PlayerShotchart(team_city_name='toronto', player_name=player, season=season)
+            shotchart.to_csv()
+
     
