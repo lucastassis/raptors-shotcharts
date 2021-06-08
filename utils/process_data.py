@@ -1,5 +1,11 @@
+'''
+Functions used to process the player's input data to facilitate the plots in plot_data.py
+'''
 import pandas as pd
 import numpy as np
+
+def get_fgp(df) -> float:
+    return round(100 *  len(player_fgm(df)) / len(df), 2)
 
 def player_fgm(df) ->pd.DataFrame:
     idx_made = list(np.where(df["SHOT_MADE_FLAG"] == 1)[0])
@@ -32,12 +38,18 @@ def league_fg_zone(df) -> pd.DataFrame:
         df_fg.loc[shot_zone] = round(100 * (fg['FGM'] / fg['FGA']), 2)
     return df_fg
 
+def fg_per_feet(df) -> pd.DataFrame:
+    shots_per_distance = df[['SHOT_DISTANCE', 'SHOT_MADE_FLAG']]
+    shots_per_distance = shots_per_distance.groupby('SHOT_DISTANCE').agg(['mean', 'count']).reset_index()
+    return shots_per_distance
+
 if __name__ == '__main__':
     df = pd.read_csv('../data/2020-21/kylelowry.csv') # read csv
     df_league = pd.read_csv('../data/2020-21/league_averages.csv')
     # print(player_fg_zone(df))
     # print(league_fg_zone(df_league))
-    print(player_loc_zone(df, 'Above the Break 3'))
+    # print(player_loc_zone(df, 'Above the Break 3'))
+    fg_per_feet(df)
 
 
 

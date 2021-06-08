@@ -1,3 +1,6 @@
+'''
+Functions to fetch the player's data using the nba_api
+'''
 from nba_api.stats.endpoints import shotchartdetail
 from nba_api.stats.static import teams
 from nba_api.stats.static import players
@@ -40,6 +43,7 @@ class PlayerShotchart(object):
         self.shotchart_df.to_csv(f'../data/{self.season}/{self.player_info["full_name"].lower().replace(" ", "")}.csv')
 
 if __name__ == "__main__":
+    # fetch player data
     # klow = PlayerShotchart(team_city_name='toronto', player_name='Kyle Lowry', season='2020-21')
     # klow.to_csv()
 
@@ -47,8 +51,8 @@ if __name__ == "__main__":
     roster2019_20 = ['Chris Boucher', 'Oshae Brissett', 'Terence Davis', 'Marc Gasol', 'Dewan Hernandez', 'Rondae Hollis-Jefferson', 'Serge Ibaka', 'Stanley Johnson', 'Kyle Lowry', 'Patrick McCaw', 'Malcolm Miller', 'Shamorie Ponds','Norman Powell', 'Pascal Siakam', 'Matt Thomas', 'Fred VanVleet', 'Paul Watson', 'OG Anunoby']
     roster2020_21 = ['Fred VanVleet', 'Pascal Siakam', 'Kyle Lowry', 'OG Anunoby', 'Gary Trent Jr.', 'Khem Birch', 'Norman Powell', 'Chris Boucher', "DeAndre' Bembry", 'Henry Ellenson', 'Aron Baynes', 'Stanley Johnson', 'Terence Davis', 'Yuta Watanabe', 'Rodney Hood', 'Paul Watson', 'Alex Len', 'Matt Thomas', 'Patrick McCaw']
 
-    rosters = [roster2020_21]
-    seasons = ['2020-21']
+    rosters = [roster2019_20, roster2020_21]
+    seasons = ['2019-20', '2020-21']
 
     for roster, season in zip(rosters, seasons):
         for player in roster:
