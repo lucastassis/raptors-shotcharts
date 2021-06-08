@@ -3,6 +3,7 @@ Functions used to process the player's input data to facilitate the plots in plo
 '''
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 def get_fgp(df) -> float:
     return round(100 *  len(player_fgm(df)) / len(df), 2)
@@ -43,13 +44,22 @@ def fg_per_feet(df) -> pd.DataFrame:
     shots_per_distance = shots_per_distance.groupby('SHOT_DISTANCE').agg(['mean', 'count']).reset_index()
     return shots_per_distance
 
+def freq_per_feet(df) -> pd.DataFrame:
+    freq_per_distance = df[['SHOT_DISTANCE']]
+    total_shots = len(df[['SHOT_DISTANCE']])
+    freq_per_distance = freq_per_distance.value_counts().reset_index()
+    freq_per_distance.rename(columns={0 : 'COUNT'}, inplace=True)
+    freq_per_distance['COUNT'] = 100 * freq_per_distance['COUNT'] / total_shots
+    return freq_per_distance.sort_values('SHOT_DISTANCE')
+
 if __name__ == '__main__':
     df = pd.read_csv('../data/2020-21/kylelowry.csv') # read csv
     df_league = pd.read_csv('../data/2020-21/league_averages.csv')
     # print(player_fg_zone(df))
     # print(league_fg_zone(df_league))
     # print(player_loc_zone(df, 'Above the Break 3'))
-    fg_per_feet(df)
+    # fg_per_feet(df)
+    print(freq_per_feet(df))
 
 
 

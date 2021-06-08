@@ -185,7 +185,7 @@ def plot_density(player_data, title='Toronto Raptors', player_img='./players_pic
 '''
 Function for plotting fg per feet
 '''
-def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', out_path='fg_per_feet.png', season='2019-20',save_fig=True, show_plot=False):
+def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', out_path='fg_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
     mpl.rc('text', usetex=True)
     mpl.rcParams['font.family'] = 'STIXGeneral'
     mpl.rcParams['font.size'] = 14
@@ -207,7 +207,7 @@ def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./player
     plt.plot(np.arange(0, 35, 1), 35 * [fgp], color='white', linestyle='dashed', zorder=1) # plot players fg percentage
     plt.plot(100 * [22], np.arange(0, 100, 1), color='white', alpha=0.5, zorder=1) # plot 3pt line
     plt.plot(100 * [24], np.arange(0, 100, 1), color='white', alpha=0.5, zorder=1) # plot 3pt line
-    plt.scatter(shot_feet, percentage_per_feet, s=shots_per_feet*5, color='#bd1b21', marker='o', zorder=2) # plot shots
+    plt.scatter(shot_feet, percentage_per_feet, s=shots_per_feet * 5, color='#bd1b21', marker='o', zorder=2) # plot shots
     
     # texts + title
     plt.text(30, fgp + 3, f'FG(\%) = {fgp}\%') # fg% text
@@ -218,29 +218,89 @@ def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./player
     ax.set_ylabel('FG(\%)')
     ax.set_xlabel('ft')
 
-    # player pic
+    # load img
     load_img = plt.imread(player_img)
+
+    # plot player
     plot_im = OffsetImage(load_img, zoom=0.1)
     plot_im.set_offset((3250, 1340))
+   
+    # # plotting logo
+    # plot_im = OffsetImage(load_img, zoom=0.18)
+    # plot_im.set_offset((3400, 1330))
+    
+    # add img
     ax.add_artist(plot_im) 
 
     if save_fig:
-        plt.savefig('fg_per_feet.png', dpi=300, bbox_inches='tight')
+        plt.savefig(out_path, dpi=300, bbox_inches='tight')
     if show_plot:
         plt.show()
+
+'''
+Function for plotting shot frequency per feet
+'''
+def plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', out_path='freq_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
+    mpl.rc('text', usetex=True)
+    mpl.rcParams['font.family'] = 'STIXGeneral'
+    mpl.rcParams['font.size'] = 14
+    plt.style.use('dark_background')
+
+    # processing the data
+    data = process_data.freq_per_feet(player_data)
+    shot_distance = data['SHOT_DISTANCE'].to_numpy()
+    idx = list(np.where(shot_distance < 35))
+    shot_distance = shot_distance[tuple(idx)]
+    shot_freq = data['COUNT'].to_numpy()[tuple(idx)]
+
+    # plot
+    fig, ax = plt.subplots(figsize=(15, 5))
+    plt.xlim([-.6, 35])
+    plt.ylim([0, 20])
+    plt.bar(shot_distance, shot_freq, color='#bd1b21', zorder=2)
+    plt.plot(30 * [21.5], np.arange(0, 30, 1), color='white', alpha=0.5, zorder=1) # plot 3pt line
+    plt.plot(30 * [23.5], np.arange(0, 30, 1), color='white', alpha=0.5, zorder=1) # plot 3pt line
+
+    # texts + title
+    plt.text(9, 17,'2 points', fontdict={'fontsize':12})
+    plt.text(22.5, 17, '2 points\n+\ncorner 3', fontdict={'fontsize':12}, ha='center', va='center')
+    plt.text(28, 17, '3 points', fontdict={'fontsize':12})
+    ax.set_title(f'{player_name}\n{season} Regular Season', fontdict={'fontsize':25}, loc='left')
+    ax.set_ylabel('Frequency (\%)')
+    ax.set_xlabel('ft')
+
+    # load img
+    load_img = plt.imread(player_img)
+
+    # # plot player
+    # plot_im = OffsetImage(load_img, zoom=0.1)
+    # plot_im.set_offset((3250, 1340))
+   
+    # plotting logo
+    plot_im = OffsetImage(load_img, zoom=0.18)
+    plot_im.set_offset((3400, 1320))
+    
+    # add img
+    ax.add_artist(plot_im) 
+
+    if save_fig:
+        plt.savefig(out_path, dpi=300, bbox_inches='tight')
+    if show_plot:
+        plt.show()
+
 
 if __name__ == "__main__":
     import pandas as pd 
 
     # load the data
-    player_data = pd.read_csv('../data/2020-21/fredvanvleet.csv')
+    player_data = pd.read_csv('../data/2020-21/roster_data.csv')
     league_data = pd.read_csv('../data/2020-21/league_averages.csv')
 
     # plot the data
-    # plot_scatter_zone(player_data, league_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', season='2020-21', show_plot=False)
+    # plot_scatter_zone(player_data, league_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', season='2019-20', show_plot=False)
     # plot_density(player_data, out_path='2019-20.png', season='2019-20', show_plot=False)
-    plot_fg_per_feet(player_data, player_name='OG Anunoby', player_img='./players_pics/fredvanvleet.png', season='2020-21')
-
+    # plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', season='2019-20')
+    plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', out_path='roster_freq_per_feet.png', season='2020-21')
 
 
 
