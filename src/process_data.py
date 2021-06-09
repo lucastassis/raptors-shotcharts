@@ -53,8 +53,8 @@ def freq_per_feet(df) -> pd.DataFrame:
     return freq_per_distance.sort_values('SHOT_DISTANCE')
 
 if __name__ == '__main__':
-    df = pd.read_csv('../data/2020-21/kylelowry.csv') # read csv
-    df_league = pd.read_csv('../data/2020-21/league_averages.csv')
+    df = pd.read_csv('./data/2020-21/kylelowry.csv') # read csv
+    df_league = pd.read_csv('./data/2020-21/league_averages.csv')
     # print(player_fg_zone(df))
     # print(league_fg_zone(df_league))
     # print(player_loc_zone(df, 'Above the Break 3'))

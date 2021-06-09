@@ -40,7 +40,7 @@ class PlayerShotchart(object):
     
     # function that saves the dataframe into a csv file
     def to_csv(self):
-        self.shotchart_df.to_csv(f'../data/{self.season}/{self.player_info["full_name"].lower().replace(" ", "")}.csv')
+        self.shotchart_df.to_csv(f'./data/{self.season}/{self.player_info["full_name"].lower().replace(" ", "")}.csv')
 
 if __name__ == "__main__":
     # fetch player data

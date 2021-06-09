@@ -2,7 +2,6 @@
 Script for plotting the 2019-20 and 2020-21 visualizations for the four core players
 '''
 import sys
-sys.path.insert(0, './utils/')
 from plot_data import plot_scatter_zone, plot_fg_per_feet
 import pandas as pd
 

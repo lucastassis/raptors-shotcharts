@@ -74,7 +74,7 @@ def draw_court(ax=None, color='black', lw=2, outer_lines=False):
 '''
 Function for plotting some player's shotchart based on the league averages
 '''
-def plot_scatter_zone(player_data, league_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', out_path='scatter.png', season='2019-20',savefig=True, show_plot=False):
+def plot_scatter_zone(player_data, league_data, player_name='Kyle Lowry', player_img='./team_imgs/kylelowry.png', out_path='scatter.png', season='2019-20',savefig=True, show_plot=False):
     plt.style.use('dark_background')
 
     mpl.rc('text', usetex=True)
@@ -138,7 +138,7 @@ def plot_scatter_zone(player_data, league_data, player_name='Kyle Lowry', player
 '''
 Function for plotting the density (or heatmap) visualization of some player's data
 '''
-def plot_density(player_data, title='Toronto Raptors', player_img='./players_pics/logo.png', out_path='density.png', season='2019-20', savefig=True, show_plot=False):
+def plot_density(player_data, title='Toronto Raptors', player_img='./team_imgs/logo.png', out_path='density.png', season='2019-20', savefig=True, show_plot=False):
     mpl.rc('text', usetex=True)
     mpl.rcParams['font.family'] = 'STIXGeneral'
     mpl.rcParams['font.size'] = 14
@@ -185,7 +185,7 @@ def plot_density(player_data, title='Toronto Raptors', player_img='./players_pic
 '''
 Function for plotting fg per feet
 '''
-def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', out_path='fg_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
+def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./team_imgs/kylelowry.png', out_path='fg_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
     mpl.rc('text', usetex=True)
     mpl.rcParams['font.family'] = 'STIXGeneral'
     mpl.rcParams['font.size'] = 14
@@ -240,7 +240,7 @@ def plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./player
 '''
 Function for plotting shot frequency per feet
 '''
-def plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', out_path='freq_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
+def plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./team_imgs/logo.png', out_path='freq_per_feet.png', season='2019-20', save_fig=True, show_plot=False):
     mpl.rc('text', usetex=True)
     mpl.rcParams['font.family'] = 'STIXGeneral'
     mpl.rcParams['font.size'] = 14
@@ -293,14 +293,14 @@ if __name__ == "__main__":
     import pandas as pd 
 
     # load the data
-    player_data = pd.read_csv('../data/2020-21/roster_data.csv')
-    league_data = pd.read_csv('../data/2020-21/league_averages.csv')
+    player_data = pd.read_csv('./data/2020-21/roster_data.csv')
+    league_data = pd.read_csv('./data/2020-21/league_averages.csv')
 
     # plot the data
-    # plot_scatter_zone(player_data, league_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', season='2019-20', show_plot=False)
+    # plot_scatter_zone(player_data, league_data, player_name='Toronto Raptors', player_img='./team_imgs/logo.png', season='2019-20', show_plot=False)
     # plot_density(player_data, out_path='2019-20.png', season='2019-20', show_plot=False)
-    # plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./players_pics/kylelowry.png', season='2019-20')
-    plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./players_pics/logo.png', out_path='roster_freq_per_feet.png', season='2020-21')
+    # plot_fg_per_feet(player_data, player_name='Kyle Lowry', player_img='./team_imgs/kylelowry.png', season='2019-20')
+    plot_freq_per_feet(player_data, player_name='Toronto Raptors', player_img='./team_imgs/logo.png', out_path='roster_freq_per_feet.png', season='2020-21')
 
 
 
