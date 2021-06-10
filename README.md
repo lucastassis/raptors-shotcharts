@@ -1,14 +1,31 @@
 # Visualizing Shotcharts from the Toronto Raptors 2019-20 and 2020-21 Seasons
+<!-- vscode-markdown-toc -->
+* 1. [Introduction](#Introduction)
+* 2. [The data](#Thedata)
+* 3. [The visualizations](#Thevisualizations)
+	* 3.1. [The full team](#Thefullteam)
+	* 3.2. [The core four](#Thecorefour)
+		* 3.2.1. [Fred VanVleet](#FredVanVleet)
+		* 3.2.2. [Kyle Lowry](#KyleLowry)
+		* 3.2.3. [Pascal Siakam](#PascalSiakam)
+		* 3.2.4. [OG Anunoby](#OGAnunoby)
+	* 3.3. [The tables](#Thetables)
+* 4. [Conclusion](#Conclusion)
+* 5. [Extra](#Extra)
 
-[TOC]
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
-## Introduction
+##  1. <a name='Introduction'></a>Introduction
 
 The 2020-21 NBA Regular Season has finished for a while now, and we are already somewhat deep in the 2021 playoffs. And for the first time in eight seasons, the Toronto Raptors are out of the postseason (at least we get to watch other teams suffer without suffering ourselves... right?). And there may be plenty of reasons: moving to Tampa, health-and-safety protocols, injuries, losing Serge Ibaka and Marc Gasol in the offseason... we can go on for a long time. But, in this article (?), I tried to make some visualizations to find some other reasons (particularly in the offensive end) why a team that had a 53-19 record in the 2019-20 season fell to 27-45 in the 2020-21 season.
 
 There are hundreds of articles that are written by people who understand way more than me... and it is probable that these visualizations will not provide much insight on the situation, given that there was an infinity of outside-basketball reasons that are not accounted for in these graphs... however, this is a nice exercise (well, at least for me). 
 
-## The data
+##  2. <a name='Thedata'></a>The data
 
 The first thing I did was to gather some data about the 2019-20 and 2020-21 seasons. I used the [nba_api]() to fetch this data. Then I had to decide what data to use (which players, etc, etc). I ended up deciding to analyze the full roster data for both seasons, and also the data of what I called the *core four*. The *core four* are Kyle Lowry, Fred VanVleet, Pascal Siakam, and OG Anunoby. I did not choose Norman Powell because, well, he is not in the Raptors anymore (unfortunately). And Chris Boucher was left out because he wasn't in the rotation so much as he was this year (well, if I do this again next year, he might earn a spot given his growth throughout this season). Another important thing is that, in the roster data from the 2020-21 seasons, I did not use data from the rookies: Malachi Flynn, Jalen Harris, and Freddie Gillespie. Unfortunately, the API did not find the data for them. I don't think that it would make that much impact on the results (I might be wrong), but we might as well take this into account when analyzing the data.
 
@@ -16,9 +33,9 @@ Anyway, the data consists of the location of the players in all their shots take
 
 With the basic definitions out there, we may as well start this thing.
 
-## The visualizations
+##  3. <a name='Thevisualizations'></a>The visualizations
 
-### The full team
+###  3.1. <a name='Thefullteam'></a>The full team
 
 So, I will start showing the data from the full roster.
 
@@ -41,11 +58,11 @@ Okay, now these Figures illustrate the frequency of shots taken by feet. This wa
 
 So we already see some differences that may not be one of the main reasons, but it can indicate some things. And I also know people tweeted this many times, but as I said before, now it is backed by data (I guess some people on Twitter might say things backed by data too... but I spent some time on this, so let's imagine it wasn't). Anyway, now we move to the *core four*.
 
-### The core four
+###  3.2. <a name='Thecorefour'></a>The core four
 
 The core four consist of the main players of this Raptors team, or at least who I consider the main players. We will follow the data similar to what I did previously. So, first, let's have a look at their shots compared to the league averages.
 
-#### Fred VanVleet
+####  3.2.1. <a name='FredVanVleet'></a>Fred VanVleet
 
 We start by showing Freddy's numbers.
 
@@ -60,7 +77,7 @@ One thing that pops up is the mid-range, paint, and restricted area. We already 
 
 In these figures, it becomes more clear that Fred had an off-year shooting-wise. He also took more threes this year than in the 2019-20 season. But, as said many times, it is really hard to really evaluate Fred given his time after COVID.
 
-#### Kyle Lowry
+####  3.2.2. <a name='KyleLowry'></a>Kyle Lowry
 
 The next up is no one less than the greatest raptor of all time: Kyle Lowry.  So, let's take a look at Kyle's shotcharts.
 
@@ -75,7 +92,7 @@ Kyle is a veteran of the game and does not seem to be slowing down. His 3 point 
 
 Overall he had pretty similar seasons, however, he shot better this season. 
 
-#### Pascal Siakam
+####  3.2.3. <a name='PascalSiakam'></a>Pascal Siakam
 
 Okay, let's move to Spicy P. As you already know, we start with the scatter plots.
 
@@ -92,7 +109,7 @@ One nice thing from Siakam this season is that his playmaking was much better th
 
 From this image we notice that his 2-point game near the basket seems to be pretty similar, and even had a more solid mid-range game... however, his three-point shot fell hard this season.
 
-#### OG Anunoby
+####  3.2.4. <a name='OGAnunoby'></a>OG Anunoby
 
 Last but not least: OG. OG had an AMAZING season (yes, I am hyped). He showed great growth, and I am not talking about lifting a 1,91m (yes, I am Brazilian so I use the metric system... but for you who do not it is 6 ft 3) grown man with a single arm, in a way we can only guess made Ibaka proud. By the way, just search "Schroder OG" if you don't know what I am talking about. Anyway, he had an amazing year and we have no reasons not to be hyped about his next season.
 
@@ -111,7 +128,7 @@ Anyway, I (and the data) have nothing bad to say about OG this season, he was tr
 
 Again, pretty much the same shots with the addition of a mid-range. Yes, his FG (%) is a little worse, but he took a lot more shots this year than last year. That is, he had more touches offensively and pretty much kept his efficiency... this is really good by my standards.
 
-### The tables
+###  3.3. <a name='Thetables'></a>The tables
 
 I also going to leave some tables for the ones that like tables, it can be useful if you want  to further analyze the graphs I showed.
 
@@ -136,13 +153,13 @@ I also going to leave some tables for the ones that like tables, it can be usefu
 | Left Corner 3                           |         50 |         17.86 |      42.37 |         24.14 |       37.54 |
 | Right Corner 3                          |      42.86 |            32 |       40.3 |         36.67 |       38.36 |
 
-## Conclusion
+##  4. <a name='Conclusion'></a>Conclusion
 
 I made this project intending to get more experience with visualizations in basketball and also because I truly wanted to see if I found some insights on this chaotic season. From the visualizations, we observed some patterns that may justify part of the problems, such as the lack of a center for most of the season. Also, some players had health-and-safety protocols... and of course, being away from Toronto. And also the COVID aftermath and the "wall" that Freddy said they hit after playing a while. 
 
 **Chaotic** is, maybe, truly the word that better defines this season. And some of the data may not show all of this, but it can show some.
 
-## Extra
+##  5. <a name='Extra'></a>Extra
 
 So, as I said before, I made this project to learn and also to have some fun exploring the Raptors data. I am by no means a basketball expert and my analysis may be off in some cases. Anyway, if you have any suggestions, comments, etc, etc just send me an email. Hope you liked the article(?). 
 
