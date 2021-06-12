@@ -1,8 +1,8 @@
-# Source Code used to make the Visualizations
+# Source Code used to make the Visualisations
 
 ## Description
 
-This directory contains the code used to produce the project visualizations: from getting the data, to processing and plotting the visualizations.
+This directory contains the code used to produce the project visualisations: from getting the data, to processing and plotting the visualisations.
 
 The code is organized as follows:
 
@@ -10,7 +10,7 @@ The code is organized as follows:
 
 ```process_data.py```: this file contains some functions used to process the data stored in the CSV files, making the plotting process easier (and cleaner).
 
-```plot_data.py```: this file contains the functions used to produce the visualizations. All the plots are available in the directory ```plots/```. The plots used images from the players and teams. I got these images from the [stats.nba.com](stats.nba.com) site as well.
+```plot_data.py```: this file contains the functions used to produce the visualisations. All the plots are available in the directory ```plots/```. The plots used images from the players and teams. I got these images from the [stats.nba.com](stats.nba.com) site as well.
 
 ```create_plots.py``` and ```create_tables.py```: both files only contain scripts for automating the plotting and table making process. 
 
@@ -20,9 +20,9 @@ All the code used Python 3. To install the dependencies you only need to run: ``
 
 ## Other stuff
 
-To make this visualizations, I read several articles on plotting shotcharts that may also help you (if you want to make some visualizations of your own).
+To make this visualisations, I read several articles on plotting shotcharts that may also help you (if you want to make some visualisations of your own).
 
-- JP Hwang has some awesome content about basketball and visualizations, and it really helped me in this process. Links: 
+- JP Hwang has some awesome content about basketball and visualisations, and it really helped me in this process. Links: 
 
   - [Visualising basketball shots in 2020 - the (big) fundamentals.](https://www.jphwang.com/visualising-basketball-shots-the-basics/)
   -  [NBA shot data analytics & visualization with Python, Pandas and Matplotlib: Part 1 – The basics](https://www.jphwang.com/nba-shot-data-analytics-visualization-with-python-pandas-and-matplotlib-part-1-the-basics/) (this is a three-part series, it is really worth to read it)
