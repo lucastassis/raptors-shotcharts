@@ -111,7 +111,7 @@ From this image we notice that his 2-point game near the basket seems to be pret
 
 ####  3.2.4. <a name='OGAnunoby'></a>OG Anunoby
 
-Last but not least: OG. OG had an AMAZING season (yes, I am hyped). He showed great growth, and I am not talking about lifting a 1,91m (yes, I am Brazilian so I use the metric system... but for you who do not this is equal to 6 ft 3) grown man with a single arm, in a way we can only guess made Serge proud. By the way, just search "Schroder OG" if you don't know what I am talking about. Anyway, he had an amazing year and we have no reasons not to be hyped about his next season.
+Last but not least: OG. OG had an AMAZING season (yes, I am hyped) and we have no reason to not be hyped about his next season.
 
 | <img src="./plots/2019-20/oganunoby.png" style="zoom: 12.5%;" /><img src="./plots/2020-21/oganunoby.png" style="zoom: 12.5%;" /> |      |
 | ------------------------------------------------------------ | ---- |
