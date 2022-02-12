@@ -101,7 +101,7 @@ Okay, let's move to Spicy P. As you already know, we start with the scatter plot
 
 Siakam was strongly criticized throughout this season, particularly because of his missed game-winners. He, like Fred, also went through health-and-safety protocols, so we have that to keep in mind. We did not even need this plot to know this: Siakam was really inconsistent from the three-point line. Well, observing the plot this is clear. But one nice thing is that he actually shot better from the mid-range.
 
-Another nice thing from Siakam this season is that his playmaking was much better than last season. But despite that, he needs to get this three-point shot back, at least to an average. By the way, I am not going to bash Pascal because of his lost game-winners, even though I was also mad at them. Pascal had a rough time in the bubble, and being away from Toronto this season probably did not help, so I guess it is fair to wait his next season (if back in Toronto) to properly analyse everything. But, continuing with the visualisations, the next is his FG% per feet.
+Another nice thing from Siakam this season is that his playmaking was much better than last season. But despite that, he needs to get this three-point shot back, at least to an average. By the way, I am not going to criticize Pascal because of his lost game-winners, even though I was also disappointed at them. Pascal had a rough time in the bubble, and being away from Toronto this season probably did not help, so I guess it is fair to wait his next season (if back in Toronto) to properly analyse everything. But, continuing with the visualisations, the next is his FG% per feet.
 
 <img src="./plots/2019-20/pascalsiakam_fg_per_feet.png" style="zoom: 20%;" />
 
